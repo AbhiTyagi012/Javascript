@@ -16,7 +16,7 @@ let valueInNumber = Number(score)
 let isLoggedIn = undefined
 
 let boolenIsLoggedIn = Boolean(isLoggedIn)
-console.log(boolenIsLoggedIn)
+// console.log(boolenIsLoggedIn)
 
 // 1 => true; 0=> false
 // "" => false
@@ -27,5 +27,19 @@ console.log(boolenIsLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber)
-console.log(typeof(stringNumber))
+// console.log(stringNumber)
+// console.log(typeof(stringNumber))
+
+
+
+// ************* Operations ****************
+let value = 2
+let negValue = -value
+// console.log(negValue);
+
+
+console.log(2 + "2");
+console.log("2" + 2 + 2);
+console.log(1 + 2 + "2");
+
+
