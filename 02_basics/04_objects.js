@@ -52,7 +52,7 @@ users[1].email
 
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+console.log(Object.entries(tinderUser));
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 
@@ -64,10 +64,11 @@ const course = {
     courseInstructor: "abhi"
 }
 
+// to get values in a simple manner - destructing object
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor)
-console.log(instructor)
+// console.log(instructor)
 
 
 // JSON format
